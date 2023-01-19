@@ -1,0 +1,25 @@
+{
+  "name": "jeonjuuniversitydiscordbot",
+  "version": "0.1.0",
+  "description": "전주대학교 디스코드의 디스코드 봇 소스입니다.",
+  "main": "index.js",
+  "scripts": {
+    "refresh": "node interactionUpdate.js",
+    "start": "tsc && node index.js",
+    "chromedriver": "node ./node_modules/.bin/chromedriver"
+  },
+  "keywords": [],
+  "author": "CistusF",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^108.0.0",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "moment-timezone": "^0.5.39",
+    "mongoose": "^6.7.2",
+    "selenium-webdriver": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.1.9"
+  }
+}
